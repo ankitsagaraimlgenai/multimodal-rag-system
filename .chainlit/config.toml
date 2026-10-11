@@ -1,0 +1,25 @@
+[project]
+enable_telemetry = false
+user_env = []
+session_timeout = 3600
+cache = false
+
+[features]
+unsafe_allow_html = false
+latex = false
+user_message_autoscroll = true
+
+[features.spontaneous_file_upload]
+enabled = true
+accept = ["application/pdf"]
+max_files = 5
+max_size_mb = 50
+
+[UI]
+name = "Document Assistant"
+default_theme = "dark"
+layout = "wide"
+cot = "tool_call"
+
+[meta]
+generated_by = "2.11.0"

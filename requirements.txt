@@ -1,0 +1,13 @@
+# --- core ---
+openai>=1.99,<3
+pydantic>=2.7,<3
+pydantic-settings>=2.3,<3
+numpy>=1.26
+Pillow>=10.3
+PyMuPDF>=1.24
+torch>=2.2            # Docker installs the CPU wheel; locally pick the build for your hardware
+transformers>=4.44,<5 # CLIP; v5 changes the get_*_features return types
+# --- serving / UI ---
+chainlit>=2.0,<3
+fastapi
+uvicorn[standard]>=0.29

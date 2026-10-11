@@ -1,0 +1,2 @@
+{"question": "REPLACE ME: a question your PDFs can answer, e.g. What does the chart on page 1 show about revenue trends?", "reference": "REPLACE ME: the correct answer, written by a human who has read the document."}
+{"question": "REPLACE ME: a question that needs text, e.g. What are the main findings of the document?", "reference": "REPLACE ME: the expected answer."}

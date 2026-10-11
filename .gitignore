@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+data/
+.files/
+.venv/
+eval/results.csv
+.pytest_cache/
